@@ -41,6 +41,8 @@ module Brcobranca
       attr_accessor :documento_cedente
       # <b>OPCIONAL</b>: Número sequencial utilizado para identificar o boleto
       attr_accessor :numero_documento
+      # <b>OPCIONAL</b>: Número utilizado pela empresa para identificar título
+      attr_accessor :numero_documento_empresa      
       # <b>REQUERIDO</b>: Símbolo da moeda utilizada (R$ no brasil)
       attr_accessor :especie
       # <b>REQUERIDO</b>: Tipo do documento (Geralmente DM que quer dizer Duplicata Mercantil)
